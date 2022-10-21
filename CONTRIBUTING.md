@@ -13,7 +13,6 @@ Here are some examples:
 1. A Conference **celebrating Python in a geographic region or technical discipline** ([PyCon US](https://pycon.us), [PyGotham](https://pygotham.org), [PyData](https://pydata.org/upcoming-events/))
 2. The Conference **Celebrates a Community where Python is widely used** ([TableauCon](https://www.tableau.com/events/conference), [Open Data Science Conference](https://odsc.com))
 3. The Conference is a General Technology Focus with a **Python/Data Science specific track** ([All Things Open](https://www.allthingsopen.org))
-4. A community-run general technology conference ([!!Con](https://bangbangcon.com))
 
 If there is any confusion, **we encourage you to submit it**. One of the maintainers will request more information in the issue comments if necessary.
 
