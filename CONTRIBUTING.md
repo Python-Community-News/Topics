@@ -1,7 +1,7 @@
 # Contributing Topics to the Show
 
 ## Submitting a Conference
-Submit Upcoming Conferences to be talked about on the show using one our [conference issue templates](https://github.com/python-community-news/topics/issues/new/choose).
+Submit Upcoming Conferences to be talked about on the show using our [conference issue templates](https://github.com/Python-Community-News/Topics/issues/new?assignees=&labels=conference&template=name%3Aadd_conference.yml&title=%5BCONFERENCE%5D+%3CCONFERENCE+NAME%3E+YYYY).
 
 > NOTE: All Conference announcements should have an issue made. Issues will be closed and not reported on if they fail to meet the criteria for a valid conference, announcement type, or are not approved but the hosts.
 
