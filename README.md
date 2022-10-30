@@ -1,4 +1,7 @@
 # Python Community News - Topics
+![Days until next Podcast](https://img.shields.io/endpoint?url=https://pcn-days-until-badge.azurewebsites.net/api/badgedaysuntil) ![Days until Topic Deadline](https://img.shields.io/endpoint?url=https://pcn-days-until-badge.azurewebsites.net/api/badgetopicsdeadline)
+
+
 
 This repository allows folks to collect topics and conferences for use with the Python Community News newsletter, podcast, and livestream.
 
