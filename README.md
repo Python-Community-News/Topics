@@ -1,5 +1,5 @@
 # Python Community News - Topics
-![Days until next Podcast](https://img.shields.io/endpoint?url=https://pcn-days-until-badge.azurewebsites.net/api/badgedaysuntil) ![Days until Topic Deadline](https://img.shields.io/endpoint?url=https://pcn-days-until-badge.azurewebsites.net/api/badgetopicsdeadline)
+![Days until next Podcast](https://img.shields.io/endpoint?url=https://pcn-days-until-badge.azurewebsites.net/api/badgedaysuntil) ![Days until Topic Deadline](https://img.shields.io/endpoint?url=https://pcn-days-until-badge.azurewebsites.net/api/badgetopicsduedate)
 
 
 
