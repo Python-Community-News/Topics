@@ -1,6 +1,6 @@
 name: Episode Post Prep
 description: There are things that need to happen at the end of an episode
-title: "[Publish] Python Community <EPISODE NUMBER>"
+title: "<EPISODE TITLE FROM YOUTUBE>"
 labels: ['publish']
 assignees: ['kjaymiller', 'jonafato']
 body:
@@ -26,14 +26,14 @@ body:
     validations:
       required: true
   - type: input
-    id: shownotes_id
+    id: Shownotes
     attributes:
       label: Shownotes ID
       description: The ID from transitor.fm which you can get from the share url.
     validations:
       required: true
   - type: input
-    id: youtube_id
+    id: YouTube
     attributes:
       label: YouTube ID
       description: The ID from YouTube which you can get from the share url.
