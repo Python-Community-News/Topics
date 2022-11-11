@@ -24,8 +24,6 @@ body:
       label: Conference Dates
       description: The start and end date of the conference.
       placeholder: "DD (MMM) -DD MMM YYYY"
-    validations:
-      required: true
   - type: dropdown
     id: conference_type
     attributes:
