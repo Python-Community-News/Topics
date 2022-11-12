@@ -42,6 +42,8 @@ body:
     attributes:
       label: Online Tickets
       description: Can people attend the conference virtually? (Check if yes)
+      options:
+        - label Virtual Tickets are available
   - type: input
     id: conference_location
     attributes:
