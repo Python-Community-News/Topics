@@ -11,9 +11,22 @@ body:
       placeholder: <CONFERENCE NAME>
     validations:
       required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Summary
+      description: Provide a summary (2-5 sentences) of the announcement information
+      placeholder: The <CONFERENCE> conference is happening in <LOCATION> on <DATE>. The CFP is open until <DATE>.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Other Information 
+        Only fill out the information below that is applicable
   - type: input
     attributes:
-      label: URL
+      label: Conference Website
       description: The URL of the conference.
       placeholder: https://example.com
     validations:
@@ -23,15 +36,12 @@ body:
     attributes:
       label: Conference Dates
       description: The start and end date of the conference.
-      placeholder: "DD (MMM) -DD MMM YYYY"
-  - type: dropdown
-    id: conference_type
+      placeholder: "DD (MMM)-DD MMM YYYY"
+  - type: checkboxes
+    id: online-option
     attributes:
-      label: Conference Type
-      description: Is the conference in-person online or both?
-      options: ['both', 'in-person', 'online']
-    validations:
-      required: true
+      label: Online Tickets
+      description: Can people attend the conference virtually? (Check if yes)
   - type: input
     id: conference_location
     attributes:
