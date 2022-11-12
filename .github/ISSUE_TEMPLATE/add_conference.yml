@@ -22,8 +22,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Other Information 
-        Only fill out the information below that is applicable
+        ## Other Information 
+        ---
+        Only fill out the information below that is applicable to your announcement.
   - type: input
     attributes:
       label: Conference Website
