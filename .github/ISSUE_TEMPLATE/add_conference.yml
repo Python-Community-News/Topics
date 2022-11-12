@@ -30,7 +30,7 @@ body:
       description: The URL of the conference.
       placeholder: https://example.com
     validations:
-      required: true
+      required: false
   - type: input
     id: conference_dates
     attributes:
