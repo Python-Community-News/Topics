@@ -22,8 +22,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Other Information 
-        Only fill out the information below that is applicable
+        ## Other Information 
+        Only fill out the information below that is applicable to your announcement.
   - type: input
     attributes:
       label: Conference Website
@@ -42,6 +42,8 @@ body:
     attributes:
       label: Online Tickets
       description: Can people attend the conference virtually? (Check if yes)
+      options:
+        - label: Virtual Tickets are available
   - type: input
     id: conference_location
     attributes:
