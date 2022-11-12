@@ -23,7 +23,6 @@ body:
     attributes:
       value: |
         ## Other Information 
-        ---
         Only fill out the information below that is applicable to your announcement.
   - type: input
     attributes:
