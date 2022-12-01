@@ -61,7 +61,7 @@ body:
     attributes:
       label: Summary
       description: Summary of the news you're sharing about this conference.
-      placeholder: "PyCon has been announced alongside it's [website](url) and [cfp]. The conference is 27-31 April with workshops and sprints"
+      placeholder: "PyCon US has been announced alongside it's [website](url) and [cfp]. The conference is 27-31 April with workshops and sprints"
     validations:
       required: false
   - type: checkboxes
