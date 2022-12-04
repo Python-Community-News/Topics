@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: input
-    id: podacst
+    id: podcast
     attributes:
       label: Podcast
       description: The ID from transitor.fm which you can get from the share url.
@@ -46,6 +46,13 @@ body:
       description: The Issues covered in the episode. Use the #<ISSUE_NUMBER> format.
     validations:
       required: true
+  - type: input
+    id: conferences
+    attributes:
+      label: Conferences
+      description: The Conferences covered in the episode. Use the #<ISSUE_NUMBER> format.
+    validations:
+      required: false
   - type: input
     id: newsletter_publish_date
     attributes:
