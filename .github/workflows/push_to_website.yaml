@@ -14,4 +14,4 @@ jobs:
           token: ${{secrets.REPO_ACCESS_TOKEN}}
           event-type: publish
           repository: python-community-news/site
-          client_payload: '{"issue_number": "${{ github.event.client_payload.issue_number}}"}'
+          client-payload: '{"issue_number": "${{ github.event.issue.number}}"}'
