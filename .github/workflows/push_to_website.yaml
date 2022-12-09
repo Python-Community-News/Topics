@@ -6,6 +6,9 @@ on:
 
 jobs:
   publish:
+    strategy:
+      matrix:
+        repo: ['python-community-news/site', 'python-community-news/newsletter']
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'publish')
     steps:
@@ -13,5 +16,5 @@ jobs:
         with:
           token: ${{secrets.REPO_ACCESS_TOKEN}}
           event-type: publish
-          repository: python-community-news/site
+          repository: ${{matrix.repo}}
           client-payload: '{"issue_number": "${{ github.event.issue.number}}"}'
